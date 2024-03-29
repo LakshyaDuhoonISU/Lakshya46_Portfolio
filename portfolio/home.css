@@ -1,0 +1,129 @@
+.flex-container {
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.flex-item {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+a:hover {
+  color: #666868;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h5 {
+  letter-spacing: 3px;
+}
+
+u {
+  letter-spacing: 3px;
+  text-underline-offset: 5px;
+  color: #666868;
+}
+
+h6 {
+  color: #717171;
+  text-decoration: none;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+}
+
+#myButton {
+  background-color: #42bd42;
+  color: #e8f1e8;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.7em;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(29, 29, 29, 0.7);
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+hr {
+  color: #ddd;
+  background-color: #ddd;
+}
+
+h3 a:hover {
+  color: rgba(29, 29, 29, 0.6);
+}
+
+h3 {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.39em;
+  line-height: 1.7em;
+  text-transform: uppercase;
+}
+
+span {
+  color: rgb(61, 61, 234);
+  font-weight: bold;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+tr:nth-child(even):hover {
+  background-color: #48e6e3;
+}
+
+tr:nth-child(odd):hover {
+  background-color: #b0e977;
+}
+
+ul {
+  display: inline-block;
+  text-align: left;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  margin: 20px;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+  background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjU0NmJhdGNoMy1teW50LTM0LWJhZGdld2F0ZXJjb2xvcl8xLmpwZw.jpg);
+  background-size: cover;
+}
+
+footer {
+  background-color: #eae6e6;
+  color: #fff;
+  padding: 10px 0;
+  bottom: 0;
+  width: 100%;
+}
